@@ -100,6 +100,7 @@
     , "https://nouveau-europresse-com.univ-eiffel.idm.oclc.org/"
     , "https://nouveau-europresse-com.ezproxy.unilim.fr/*"
     , "https://nouveau-europresse-com.ezproxy.uphf.fr/*"
+    , "https://nouveau-europresse-com.ezproxy.ensta-bretagne.fr/*"
   ],
   "background": {
     "scripts": [
@@ -544,6 +545,10 @@
         {
           "name": "ENSAM",
           "AUTH_URL": "https://rp1.ensam.eu/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=AML"
+        },
+        {
+          "name": "ENSTA Bretagne",
+          "AUTH_URL": "https://nouveau.europresse.com/access/ip/default.aspx?un=ENSTAT_1"
         },
         {
           "name": "ENSTA Paris",
